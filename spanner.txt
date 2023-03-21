@@ -1,0 +1,23 @@
+CREATE TABLE Singers (
+ SingerId   INT64 NOT NULL,
+ FirstName  STRING(1024),
+ LastName   STRING(1024),
+ SingerInfo BYTES(MAX),
+) PRIMARY KEY (SingerId);
+
+CREATE TABLE Albums (SingerId     INT64 NOT NULL,AlbumId      INT64 NOT NULL,AlbumTitle   STRING(MAX),) PRIMARY KEY (SingerId, AlbumId);
+
+
+
+
+
+CREATE TABLE t1 (t1 INT64 NOT NULL,) PRIMARY KEY(t1)
+CREATE TABLE t2 (t2 INT64 NOT NULL,) PRIMARY KEY(t2)
+
+
+
+
+
+
+
+"INSERT INTO Singers (SingerId, FirstName, LastName) VALUES " "(21, 'Luann', 'Chizoba'), " "(22, 'Denis', 'Patricio'), " "(23, 'Felxi', 'Ronan'), " "(24, 'Dominik', 'Martyna') " "THEN RETURN FullName"
